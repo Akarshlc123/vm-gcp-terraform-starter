@@ -1,5 +1,7 @@
+variable "credentials_path" {}
+
 provider "google" {
-  credentials = file("refined-outlet-464813-b8-2b4e540f6a50.json")
+  credentials = file(var.credentials_path)
   project = var.project_id
   region  = var.region
   zone    = var.zone

@@ -36,3 +36,7 @@ variable "ssh_user" {
 variable "ssh_public_key" {
   type = string
 }
+
+variable "credentials_path" {
+  type = string
+}
