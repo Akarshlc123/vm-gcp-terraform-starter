@@ -1,0 +1,33 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Terraform: Init",
+      "type": "shell",
+      "command": "terraform init",
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "label": "Terraform: Plan",
+      "type": "shell",
+      "command": "terraform plan",
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "label": "Terraform: Apply",
+      "type": "shell",
+      "command": "terraform apply -auto-approve",
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "label": "Terraform: Destroy",
+      "type": "shell",
+      "command": "terraform destroy -auto-approve",
+      "group": "build",
+      "problemMatcher": []
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+# Copy this file to terraform.tfvars and fill your values
+project_id     = "YOUR_GCP_PROJECT_ID"
+region         = "asia-south1"
+zone           = "asia-south1-a"
+name_prefix    = "d2"
+machine_type   = "e2-micro"
+
+# Paste your public key string (not the file path)
+ssh_user       = "akarsh"
+ssh_public_key = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIKBt9eNxfYYGwo/3C4fVKVMqSnGws9xDkvN3aDlXBxcz akarshlc@gmail.com"

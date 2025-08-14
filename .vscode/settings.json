@@ -1,0 +1,7 @@
+{
+  "terraform.telemetry.enabled": false,
+  "editor.formatOnSave": true,
+  "[terraform]": {
+    "editor.defaultFormatter": "hashicorp.terraform"
+  }
+}
