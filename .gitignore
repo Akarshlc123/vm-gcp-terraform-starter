@@ -11,4 +11,4 @@ override.tf.json
 terraform.tfvars
 *.pem
 *.key
-refined-outlet-464813-b8-2b4e540f6a50.json
+*.json
