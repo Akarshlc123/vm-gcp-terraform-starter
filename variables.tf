@@ -14,7 +14,7 @@ variable "zone" {
 
 variable "name_prefix" {
   type    = string
-  default = "demo"
+  default = "new-demo"
 }
 
 variable "machine_type" {
