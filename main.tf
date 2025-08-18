@@ -1,5 +1,4 @@
 provider "google" {
-  credentials = file(var.credentials_path)
   project = var.project_id
   region  = var.region
   zone    = var.zone
@@ -7,7 +6,7 @@ provider "google" {
 
 # Optional: default VPC for quick start (auto mode)
 resource "google_compute_network" "default" {
-  name  = "${var.name_prefix}-vpc"
+  name                    = "${var.name_prefix}-vpc"
   auto_create_subnetworks = true
 }
 
